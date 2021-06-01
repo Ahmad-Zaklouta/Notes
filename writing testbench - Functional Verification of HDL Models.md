@@ -1,4 +1,5 @@
-\# The verification challenge is to determine what input patterns (stimulus) to supply to the design and what is the expected output of a properly working desing.  
+\# The verification challenge is to determine what input patterns (stimulus) to supply to the design and what is the expected output of a properly working desing.
+
 \# apply the stimulus is relatively easy. You are under complete control of its timing and content. It is verifying the response that is difficult.  
 \# A designer verifying his own design verifies against his own interpratation, not against the specification.  
 \# Verification can only proves the presence of bugs, but not their absence.  
