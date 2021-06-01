@@ -12,7 +12,7 @@
 
 - verifying a specific partition of the design requires a relatively stable interface for the partition.
 
-**verification plan:**   
+## verification plan:
   - a complete specification document for the design to be verified must exist.  
   - identify which features must be exercied under which conditions and what the
     expected response should be.
@@ -30,7 +30,7 @@
   - System-Level Features:
     - usually limited to connectivity, flow-control, and inter-operability.
     - question whether it can be verified as a component-level feature instead.
-# Unit-level verification:
+## Unit-level verification:
   - ad-hoc verification process.
   - ensure basic functionality is operational.
   - Partition the design so the features to be verified are completely contained
@@ -42,18 +42,18 @@
   - reusable verification component must be verified independent of any one usage.
   - implementing a regression test suite that verifies the compliance of the
     reusable verification component after any modification.
-# system-level verification:
+## system-level verification:
   - focuses on the interactions between the individual components instead of the
     functionality implemented in each one.
   -  assume individual components being functionally correct.
-# board-level verification:
+## board-level verification:
   - confirm that the connectivity captured by the board design tool is correct.
-# verification strategies:
+## verification strategies:
   - decide on the level of granularity.
   - decide on the types of testcases, white-box or black-box.
   - decide on the level of abstraction. 
   - decide on how to verify the response.
-# random verification:
+## random verification:
   - does not mean randomly apply zeroes and ones to every input signals in the
     design. It is the sequence of these operations and the content of the data
     transferred that is random. 
@@ -62,7 +62,7 @@
   - The specification (constraits) for a random simulation must include distributions
     and ranges of data and operations.
   - prediction of the expected output is complex.
-# testcases:
+## testcases:
   - contain a list of the features verified in the testcase.
   - contain a list of the features dependencies assumed to be operational and 
     functionally correct.
@@ -70,7 +70,7 @@
     of random stimulus.
   - expected response and how the response will be determined as valid.
   - Specify what should not happen (errors) and error injection.
-# design for verification:
+## design for verification:
  - planning the verification up front can influence the implementation of the
    design include additional features to aid in verification.
  - provide features for extra controllability (pre-load, by-pass).
