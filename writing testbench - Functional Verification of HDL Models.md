@@ -12,7 +12,7 @@
 
 - verifying a specific partition of the design requires a relatively stable interface for the partition.
 
-** verification plan:**   
+**verification plan:**   
   - a complete specification document for the design to be verified must exist.  
   - identify which features must be exercied under which conditions and what the
     expected response should be.
