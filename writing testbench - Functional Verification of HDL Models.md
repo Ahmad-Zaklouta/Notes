@@ -1,11 +1,17 @@
-\# The verification challenge is to determine what input patterns (stimulus) to supply to the design and what is the expected output of a properly working desing.
+- The verification challenge is to determine what input patterns (stimulus) to supply to the design and what is the expected output of a properly working desing.
 
-\# apply the stimulus is relatively easy. You are under complete control of its timing and content. It is verifying the response that is difficult.  
-\# A designer verifying his own design verifies against his own interpratation, not against the specification.  
-\# Verification can only proves the presence of bugs, but not their absence.  
-\# Use waveform viewer for debugging not for determinning if a design passes or fails.  
-\# Code coverage indicates how thoroughly your entire verification suite exercies the source code. It does not provide an indication in any way about the correctness of the verification suite nor the design.  
-\# verifying a specific partition of the design requires a relatively stable interface for the partition.  
+- apply the stimulus is relatively easy. You are under complete control of its timing and content. It is verifying the response that is difficult.
+
+- A designer verifying his own design verifies against his own interpratation, not against the specification.
+
+- Verification can only proves the presence of bugs, but not their absence.
+
+- Use waveform viewer for debugging not for determinning if a design passes or fails.
+
+- Code coverage indicates how thoroughly your entire verification suite exercies the source code. It does not provide an indication in any way about the correctness of the verification suite nor the design.
+
+- verifying a specific partition of the design requires a relatively stable interface for the partition.
+
 # verification plan:  
   - a complete specification document for the design to be verified must exist.  
   - identify which features must be exercied under which conditions and what the
