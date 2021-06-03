@@ -1,3 +1,6 @@
+*****Notes from Writing Testbench Functional Verification of HDL Models**
+
+
 - The verification challenge is to determine what input patterns (stimulus) to supply to the design and what is the expected output of a properly working desing.
 
 - apply the stimulus is relatively easy. You are under complete control of its timing and content. It is verifying the response that is difficult.
@@ -66,3 +69,10 @@
   - Comments should describe the intent and purpose of the code not what the code does.
   - obsolete or outdated comments are worse than no comments since they create confusion.
   - encapsulate useful subprograms and bus-functional models.
+  - the understanding of concurrency is often what seperates the experienced designer from the newcomer.
+
+## simulation:
+  - In VHDL, a process simulate and keep simulating until a wait statement is excuted. Otherwise, it remain in the simulation engine, locking all other processes out.
+  - the simulator does not increment time by a basic time unit or time step. Regardless of the simulation resolution, the simulation advances time as far as necessory to in a single step to the next point in time where there is useful work to do.
+  - the simulation progress first along the delta axis then along the real-time axis.
+  - in VHDL, future values are assigned before the execusion of processes.
